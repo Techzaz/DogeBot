@@ -1,4 +1,3 @@
- Fitur Grup
 // Script by Muhammad Aitzaz 
 // 𝙈𝙧.𝙕𝙖𝙯 𝘽𝙤𝙩
 // ©Mr.Zaz Bot Incorporated
