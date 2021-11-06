@@ -5502,7 +5502,7 @@ Source : ${anu.result.source}
             axios
               .get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
               .then(async (a) => {
-                if (Number(filesize) >= 9999999)
+                if (Number(filesize) >= 999999999)
                   return sendMediaURL(
                     from,
                     thumb,
@@ -5532,7 +5532,7 @@ Source : ${anu.result.source}
             axios
               .get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
               .then(async (a) => {
-                if (Number(filesize) >= 100000)
+                if (Number(filesize) >= 999999999)
                   return sendMediaURL(
                     from,
                     thumb,
@@ -5735,7 +5735,7 @@ Source : ${anu.result.source}
             axios
               .get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
               .then((a) => {
-                if (Number(filesize) >= 9999999)
+                if (Number(filesize) >= 999999999)
                   return sendMediaURL(
                     from,
                     thumb,
@@ -5773,7 +5773,7 @@ Source : ${anu.result.source}
             axios
               .get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
               .then((a) => {
-                if (Number(filesize) >= 30000)
+                if (Number(filesize) >= 999999999)
                   return sendMediaURL(
                     from,
                     thumb,
