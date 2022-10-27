@@ -48,7 +48,7 @@ const runtime = function (seconds) {
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 fakenomor = '0@s.whatsapp.net'
-const gcrevoke = ["923091931370-1621430788@g.us"]
+const gcrevoke = ["923184365151-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
 owner = "923091931370@s.whatsapp.net"
@@ -107,7 +107,7 @@ console.log(color(`${spc4}< ================================================== >
   });
 await client.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync("./session.json",JSON.stringify(client.base64EncodedAuthInfo(), null, "\t"));
- teks = `https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM`
+ teks = `https://chat.whatsapp.com/JpVLn4m6YhgLTnfPBkFLxt`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
  client.sendMessage(`923091931370@s.whatsapp.net`, `*Hi Owner Mr.Aitzaz, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Mr.Zaz Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/923091931370?text=Hello bro"}}})
