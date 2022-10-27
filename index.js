@@ -133,7 +133,7 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "15157506125"; 
+targetpc = "923184365151"; 
 owner = "923091931370"; 
 fakeyoi = "Mr.Aitaz"; 
 HunterApi = "Ikyy69", 
@@ -1283,7 +1283,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await xeon.setStatus(`Bot Mode On Since ${uptime}`).catch((_) => _);
+await xeon.setStatus(`Mode By Mr.Aitzaz ZAZBot Runnig Time: ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
     if (!mek.key.fromMe && banChats === true) return;
@@ -1583,7 +1583,7 @@ break
 case 'credit':
    dtod = '923091931370'
    dtod1 = '923091931370'
-   dtod2 = '15158843880'
+   dtod2 = '923184365151'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/Techzaz/DogeBot"
         },
         "index": 0
       }
