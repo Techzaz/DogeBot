@@ -63,6 +63,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 🦄 git clone https://github.com/Techzaz/DogeBot.git
 🦄 cd DogeBot
 🦄 npm install
+🦄 rm session.json
 🦄 npm start
 🦄 scan qr code within 15seconds or use some emulator and install termux and run this script and scan from the mobile
 ```
